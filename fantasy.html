@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chapter & Charm | Fantasy Collection</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <h1 class="nova-cut-regular brand-title">Chapter & Charm ♡</h1>
+      <p class="brand-subtitle">Where you find your next book crush!</p>
+    </div>
+
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Search books...">
+    </div>
+
+    <nav>
+      <ul id="mainNavUl">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="romance.html">Romance</a></li>
+        <li><a href="natureScience.html">Nature Science</a></li>
+        <li><a href="thriller.html">Thriller</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="fantasy.html" class="active">Fantasy</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="active-category-header">
+    <h2 id="currentCategoryTitle">Fantasy</h2>
+    <p id="currentCategorySubtitle">Embark on grand adventures and encounter magic in realms of wonder.</p>
+  </section>
+
+  <div class="controls-bar">
+    <button id="priceToggle" class="filterBtn">Show Under $20</button>
+  </div>
+
+  <div class="books" id="bookGrid">
+    <div class="bookSection" data-category="fantasy" data-price="24.99">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761312598i/61431922.jpg"
+          alt="Fourth Wing book cover">
+        <div class="overlay">
+          <h3>Fourth Wing</h3>
+          <p>Rebecca Yarros</p>
+          <p class="stars">★★★★★</p>
+          <p>Dragon riders, deadly trials, and romance at Basgiath War College.</p>
+          <p>$24.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Fourth Wing</strong><br>
+        Rebecca Yarros<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-category="fantasy" data-price="18.50">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1706724269i/90202302.jpg"
+          alt="Iron Flame book cover">
+        <div class="overlay">
+          <h3>Iron Flame</h3>
+          <p>Rebecca Yarros</p>
+          <p class="stars">★★★★☆</p>
+          <p>The fight continues with more secrets, danger, and high-stakes battles.</p>
+          <p>$18.50</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Iron Flame</strong><br>
+        Rebecca Yarros<br>
+        <span class="stars">★★★★☆</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-category="fantasy" data-price="21.00">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720446381i/209668781.jpg"
+          alt="Onyx Storm book cover">
+        <div class="overlay">
+          <h3>Onyx Storm</h3>
+          <p>Rebecca Yarros</p>
+          <p class="stars">★★★★☆</p>
+          <p>Darker twists, stronger enemies, and even higher stakes in the series.</p>
+          <p>$21.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Onyx Storm</strong><br>
+        Rebecca Yarros<br>
+        <span class="stars">★★★★☆</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-category="fantasy" data-price="16.99">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1720706154i/210484327.jpg"
+          alt="The Empress book cover">
+        <div class="overlay">
+          <h3>The Empress</h3>
+          <p>Kristin Cast</p>
+          <p class="stars">★★★★☆</p>
+          <p>A magical fantasy tale full of power, mystery, and destiny.</p>
+          <p>$16.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Empress</strong><br>
+        Kristin Cast<br>
+        <span class="stars">★★★★☆</span>
+      </p>
+    </div>
+
+
+    <div class="bookSection" data-category="fantasy" data-price="23.40">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1760172116i/223395162.jpg"
+          alt="The Lovers book cover">
+        <div class="overlay">
+          <h3>The Lovers</h3>
+          <p>Kristin Cast</p>
+          <p class="stars">★★★★☆</p>
+          <p>A fantasy story of love, magic, and dangerous choices.</p>
+          <p>$23.40</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Lovers</strong><br>
+        Kristin Cast<br>
+        <span class="stars">★★★★☆</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-category="fantasy" data-price="19.99">
+      <div class="img-container">
+        <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1765718526i/244201783.jpg"
+          alt="Fortune book cover">
+        <div class="overlay">
+          <h3>Fortune</h3>
+          <p>Kristin Cast</p>
+          <p class="stars">★★★★☆</p>
+          <p>An upcoming fantasy release filled with fate, magic, and mystery.</p>
+          <p>Pre-Order $19.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Lovers</strong><br>
+        Kristin Cast<br>
+        <span class="stars">★★★★☆</span>
+      </p>
+    </div>
+  </div>
+
+  <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+  <a href="checkout.html"> <button class="checkout-btn">Checkout</button> </a>
+
+  <footer>
+    <p>Contact Us: info@chapterandcharm.com</p>
+    <p>&copy; 2026 Chapter &amp; Charm</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

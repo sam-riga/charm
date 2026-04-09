@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter & Charm</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <h1 class="nova-cut-regular brand-title">Chapter & Charm <span style="color: #f4a6b0;">♡</span></h1>
+      <p class="brand-subtitle">Where you find your next book crush!</p>
+    </div>
+
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Search books...">
+    </div>
+
+    <nav>
+      <ul id="mainNavUl">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="romance.html" class="active">Romance</a>
+        <li><a href="naturescience.html">Nature Science</a></li>
+        <li><a href="thriller.html">Thriller</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="fantasy.html">Fantasy</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="active-category-header">
+    <h2 id="currentCategoryTitle">Romance</h2>
+    <p id="currentCategorySubtitle">Love in all its forms, from sweepingly epic to sweetly simple.</p>
+  </section>
+
+  <div class="controls-bar">
+    <button id="trendingToggle" class="filterBtn">Show Trending Only</button>
+  </div>
+
+  <div class="books" id="bookGrid">
+
+    <div class="bookSection" data-rating="5.0" data-price="28.99" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book1.jpg" alt="The Deal (Off Campus #1)">
+        <div class="overlay">
+          <p><strong>The Deal (Off Campus #1)</strong></p>
+          <p>Elle Kennedy</p>
+          <p class="stars">★★★★★</p>
+          <p>She's about to make a deal with the college bad boy...</p>
+          <p>$28.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Deal (Off Campus #1)</strong><br>
+        Elle Kennedy<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="29.95" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book2.jpg" alt="The Love Hypothesis">
+        <div class="overlay">
+          <p><strong>The Love Hypothesis</strong></p>
+          <p>Ali Hazelwood</p>
+          <p class="stars">★★★★★</p>
+          <p>When a fake relationship between scientists meets the irresistible force of attraction, it throws one
+            woman's carefully calculated theories on love into chaos...</p>
+          <p>$29.95</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Love Hypothesis</strong><br>
+        Ali Hazelwood<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price = "28.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book3.jpg" alt="Things We Never Got Over (Knockemout #1)">
+        <div class="overlay">
+          <p><strong>Things We Never Got Over (Knockemout #1)</strong></p>
+          <p>Lucy Score</p>
+          <p class="stars">★★★★★</p>
+          <p>Bearded, bad-boy barber Knox prefers to live his life the way he takes his coffee: Alone. Unless you count
+            his basset hound, Waylon. Knox doesn’t tolerate drama, even when it comes in the form of a stranded runaway
+            bride...</p>
+          <p>$28.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Things We Never Got Over (Knockemout #1)</strong><br>
+        Lucy Score<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="24.99" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book4.jpg" alt="Play Along (Windy City #4)">
+        <div class="overlay">
+          <p><strong>Play Along (Windy City #4)</strong></p>
+          <p>Liz Tomforde</p>
+          <p class="stars">★★★★★</p>
+          <p>I’m the only woman on staff for the Windy City Warriors, and after years of putting up with a sexist lead
+            doctor, I’m desperate to land my dream job with a new team next year. All I have to do is maintain my
+            professional reputation for my final season in Chicago...</p>
+          <p>$24.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Play Along (Windy City #4)</strong><br>
+        Liz Tomforde<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="32.95" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book5.jpg" alt="Say You Swear (Boys of Avix #1)">
+        <div class="overlay">
+          <p><strong>Say You Swear (Boys of Avix #1)</strong></p>
+          <p>Meagan Brandy</p>
+          <p class="stars">★★★★★</p>
+          <p>For years, I’ve dreamt of what college life could bring and while some things changed, there was always one
+            constant. It didn’t matter how wild I allowed my imagination to run, it always led me to the same place in
+            the end. It led me to him. My future was clear, and he was it. Until suddenly ... he wasn’t.</p>
+          <p>$32.95</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Say You Swear (Boys of Avix #1)</strong><br>
+        Meagan Brandy<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="17.00" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book6.jpg" alt="Archer's Voice">
+        <div class="overlay">
+          <p><strong>Archer's Voice</strong></p>
+          <p>Mia Sheridan</p>
+          <p class="stars">★★★★★</p>
+          <p>When Bree Prescott arrives in the sleepy, lakeside town of Pelion, Maine, she hopes against hope that this
+            is the place where she will finally find the peace she so desperately seeks. On her first day there, her
+            life collides with Archer Hale, an isolated man who holds a secret agony of his own. A man no one else
+            sees...</p>
+          <p>$17.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Archer's Voice</strong><br>
+        Mia Sheridan<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="23.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book7.jpg" alt="All Rhodes Lead Here">
+        <div class="overlay">
+          <p><strong>All Rhodes Lead Here</strong></p>
+          <p>Mariana Zapata</p>
+          <p class="stars">★★★★★</p>
+          <p>Losing people you love is hard. Aurora De La Torre knows moving back to a place that was once home isn’t
+            going to be easy. Starting your whole life over probably isn’t supposed to be. But a small town in the
+            mountains might be the perfect remedy for a broken heart. Checking out her landlord across the driveway just
+            might cure it too...</p>
+          <p>$23.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>All Rhodes Lead Here</strong><br>
+        Mariana Zapata<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="27.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book8.jpg" alt="Offside (Rules of the Game #1)">
+        <div class="overlay">
+          <p><strong>Offside (Rules of the Game #1)</strong></p>
+          <p>Avery Keelan</p>
+          <p class="stars">★★★★★</p>
+          <p>Heartbreaker. Troublemaker. And my ex's biggest rival. After my boyfriend of two years unceremoniously
+            dumps me on my twenty-first birthday, my friends drag me to a trendy new nightclub to drown my sorrows.
+            Several drinks later, I spot the perfect rebound standing next to the bar: Chase Carter, my ex's worst
+            enemy...</p>
+          <p>$27.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Offside (Rules of the Game #1)</strong><br>
+        Avery Keelan<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="25.99" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book9.jpg" alt="Funny Story">
+        <div class="overlay">
+          <p><strong>Funny Story</strong></p>
+          <p>Emily Henry</p>
+          <p class="stars">★★★★★</p>
+          <p>Daphne always loved the way her fiancé, Peter, told their story. How they met (on a blustery day), fell in
+            love (over an errant hat), and moved back to his lakeside hometown to begin their life together. He really
+            was good at telling it... right up until the moment he realized he was actually in love with his childhood
+            best friend Petra...</p>
+          <p>$25.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Funny Story</strong><br>
+        Emily Henry<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="26.95" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book10.jpg" alt="Ghosted">
+        <div class="overlay">
+          <p><strong>Ghosted</strong></p>
+          <p>J.M. Darhower</p>
+          <p class="stars">★★★★★</p>
+          <p>A man and a woman, living vastly different lives, but that wasn't always the case. Once, they were just a
+            boy and a girl who bonded over comic books and fell in love unexpectedly...</p>
+          <p>$26.95</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Ghosted</strong><br>
+        J.M. Darhower<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="27.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book11.jpg" alt="Better Than The Movies">
+        <div class="overlay">
+          <p><strong>Better Than The Movies</strong></p>
+          <p>Lynn Painter</p>
+          <p class="stars">★★★★★</p>
+          <p>Perpetual daydreamer Liz Buxbaum gave her heart to Michael a long time ago. But her cool, aloof forever
+            crush never really saw her before he moved away. Now that he’s back in town, Liz will do whatever it takes
+            to get on his radar - and maybe snag him as a prom date - even befriend Wes Bennet...</p>
+          <p>$27.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Better Than The Movies</strong><br>
+        Lynn Painter<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="24.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book12.jpg" alt="Consider Me (Playing for Keeps #1)">
+        <div class="overlay">
+          <p><strong>Consider Me (Playing for Keeps #1)</strong></p>
+          <p>Becka Mack</p>
+          <p class="stars">★★★★★</p>
+          <p>Carter Beckett is the NHL's resident badboy, top player both on the ice & in the bedroom, and quite
+            possibly the sexiest man to ever grace my field of vision. But worst of all? He knows it. He’s arrogant,
+            self-centered, and the man doesn’t seem to know what a filter is, let alone how to use one. He’s had
+            everything served to him on a silver platter, including endless strings of women, and apparently, I’m up
+            next...</p>
+          <p>$24.99</p>
+           <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+         </div>
+      </div>
+      <p class="book-title">
+        <strong>Consider Me (Playing for Keeps #1)</strong><br>
+        Becka Mack<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="22.50" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book13.jpg" alt="Binding 13 (Boys of Tommen #1)">
+        <div class="overlay">
+          <p><strong>Binding 13 (Boys of Tommen #1)</strong></p>
+          <p>Chloe Walsh</p>
+          <p class="stars">★★★★★</p>
+          <p>He wants to save her. She wants to hide. She's damaged. He's determined. Fate brought them together. Love
+            binds them...</p>
+          <p>$22.50</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Binding 13 (Boys of Tommen #1)</strong><br>
+        Chloe Walsh<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="24.95" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book14.jpg" alt="Spiral (Off the Ice #2)">
+        <div class="overlay">
+          <p><strong>Spiral (Off the Ice #2)</strong></p>
+          <p>Bal Khabra</p>
+          <p class="stars">★★★★★</p>
+          <p>Sage Beaumont, an aspiring ballerina with dreams of joining the Aurora Ballet Theatre, but her lack of
+            popularity online leaves her at a major disadvantage for securing the lead role. When Sage finds herself
+            with the perfect opportunity to make her dreams come true by fake dating Elias, she takes her shot...</p>
+          <p>$24.95</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Spiral (Off the Ice #2)</strong><br>
+        Bal Khabra<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="19.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book15.jpg" alt="Comeback (Holland Brothers #3)">
+        <div class="overlay">
+          <p><strong>Comeback (Holland Brothers #3)</strong></p>
+          <p>Rebecca Jenshak</p>
+          <p class="stars">★★★★★</p>
+          <p>My brother’s best friend is such a jerk. An imposing, handsome jerk who doesn’t trust me. And now we’re
+            roommates...</p>
+          <p>$19.99</p>
+           <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Comeback (Holland Brothers #3)</strong><br>
+        Rebecca Jenshak<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="26.99" data-category="romance" data-trending="true">
+      <div class="img-container">
+        <img src="Archive/book16.jpg" alt="Twisted Games (Twisted #2)">
+        <div class="overlay">
+          <p><strong>Twisted Games (Twisted #2)</strong></p>
+          <p>Ana Huang</p>
+          <p class="stars">★★★★★</p>
+          <p>Stoic, broody, and arrogant, elite bodyguard Rhys Larsen has two rules: 1) Protect his clients at all costs
+            2) Do not become emotionally involved. Ever. He has never once been tempted to break those rules...until
+            her.</p>
+          <p>$26.99</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button></div>
+      </div>
+      <p class="book-title">
+        <strong>Twisted Games (Twisted #2)</strong><br>
+        Ana Huang<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="28.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book17.jpg" alt="God of Wrath (Legacy of Gods #3)">
+        <div class="overlay">
+          <p><strong>God of Wrath (Legacy of Gods #3)</strong></p>
+          <p>Rina Kent</p>
+          <p class="stars">★★★★★</p>
+          <p>When Cecily Knight sneaks into the Heathen Club’s initiation on behalf of a rival gang, she’s confident she
+            can slip through the night unnoticed. But the moment she steps into their den, she knows she’s made a fatal
+            error. The devil has seen her. Jeremy Volkov may not technically be the devil, but as far as Cecily’s
+            concerned, he’s close enough...</p>
+          <p>$28.99</p>
+         <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+         </div>
+      </div>
+      <p class="book-title">
+        <strong>God of Wrath (Legacy of Gods #3)</strong><br>
+        Rina Kent<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="5.0" data-price="24.99" data-category="romance">
+      <div class="img-container">
+        <img src="Archive/book18.jpg" alt="Face Off (D.C. Stars #1)">
+        <div class="overlay">
+          <p><strong>Face Off (D.C. Stars #1)</strong></p>
+          <p>Chelsea Curto</p>
+          <p class="stars">★★★★★</p>
+          <p>Emerson "Emmy" Hartwell has waited for a spot on an NHL roster since she became a professional hockey
+            player, and this season, she’ll finally get a chance to showcase her talents with the struggling D.C. Stars.
+            Maverick Miller. Team captain and desperate to turn things around, he agrees to play nice with the fiery new
+            left-winger even though they’re total opposites...</p>
+          <p>$24.99</p>
+         <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+         </div>
+      </div>
+      <p class="book-title">
+        <strong>Face Off (D.C. Stars #1)</strong><br>
+        Chelsea Curto<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+  </div>
+
+  <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+  <a href="checkout.html"> <button class="checkout-btn">Checkout</button> </a>
+
+
+  <footer>
+    <p>Contact Us: info@chapterandcharm.com</p>
+    <p>&copy; 2026 Chapter & Charm</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

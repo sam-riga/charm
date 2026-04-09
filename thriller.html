@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter & Charm</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <h1 class="nova-cut-regular brand-title">Chapter & Charm <span style="color:#f4a6b0;">♡</span></h1>
+      <p class="brand-subtitle">Where you find your next book crush!</p>
+    </div>
+
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Search books...">
+    </div>
+
+    <nav>
+      <ul id="mainNavUl">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="romance.html">Romance</a></li>
+        <li><a href="naturescience.html">Nature Science</a></li>
+        <li><a href="thriller.html" class="active">Thriller</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="fantasy.html">Fantasy</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="active-category-header">
+    <h2 id="currentCategoryTitle">Thriller</h2>
+    <p id="currentCategorySubtitle">Curated suspense & psychological fiction</p>
+  </section>
+
+  <!-- Sorting dropdown -->
+  <div class="controls-bar">
+    <label for="sortSelect" class="filterBtn">Sort by Author:</label>
+    <select id="sortSelect" >
+      <option value="none">None</option>
+      <option value="asc">A → Z</option>
+      <option value="desc">Z → A</option>
+    </select>
+  </div>
+
+  <div class="books" id="bookGrid">
+    <!-- Book 1 -->
+    <div class="bookSection" data-price="20.00" data-category="thriller">
+      <div class="img-container">
+        <img src="house.jpg" alt="Book 1">
+        <div class="overlay">
+          <p><strong>The House Maid</strong></p>
+          <p>The Housemaid follows Millie, who discovers dark secrets while working for a wealthy family. Shocking
+            twists reveal that nothing is as it seems.</p>
+          <p>$20.00</p>
+        <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+         </div>
+      </div>
+      <p class="book-title">
+        <strong>The House Maid</strong><br>
+        Fredia McFadden<br>
+
+      </p>
+    </div>
+
+    <!-- Book 2 -->
+    <div class="bookSection" data-price="22.00" data-category="thriller">
+      <div class="img-container">
+        <img src="sp.jpg" alt="Book 2">
+        <div class="overlay">
+          <p><strong>The Silent Patient</strong></p>
+          <p>A woman stops speaking after a shocking crime. A therapist becomes obsessed with uncovering the truth,
+            leading to a shocking twist about what really happened.</p>
+          <p>$22.00</p>
+         <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button> </div>
+      </div>
+      <p class="book-title">
+        <strong>The Silent Patient</strong><br>
+        Alex Michaelides<br>
+      </p>
+    </div>
+
+    <!-- Book 3 -->
+    <div class="bookSection" data-price="18.00" data-category="thriller">
+      <div class="img-container">
+        <img src="Verity.jpg" alt="Book 3">
+        <div class="overlay">
+          <p><strong>Verity</strong></p>
+          <p>A struggling writer takes a job finishing the books of a famous author who is incapacitated, only to
+            discover her dark, chilling autobiography. Secrets and lies unravel in a tense, psychological thriller that
+            keeps you guessing.</p>
+          <p>$18.00</p>
+        <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>  </div>
+      </div>
+      <p class="book-title">
+        <strong>Verity</strong><br>
+        Colleen Hoover<br>
+      </p>
+    </div>
+
+    <!-- Book 4 -->
+    <div class="bookSection" data-price="25.00" data-category="thriller">
+      <div class="img-container">
+        <img src="lying.jpg" alt="Book 4">
+        <div class="overlay">
+          <p><strong>Everyone Here is Lying</strong></p>
+          <p>William Wooler’s seemingly normal life unravels when his daughter Avery goes missing. Secrets, lies, and
+            suspicions among the neighbors turn the town upside down, leading to a shocking truth no one expects.</p>
+          <p>$25.00</p>
+        <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>  </div>
+      </div>
+      <p class="book-title">
+        <strong>Everyone Here is Lying</strong><br>
+        Shari Lapena<br>
+        
+      </p>
+    </div>
+
+    <!-- Book 5 -->
+    <div class="bookSection" data-price="19.00" data-category="thriller">
+      <div class="img-container">
+        <img src="murder.jpg" alt="Book 5">
+        <div class="overlay">
+          <p><strong>A Good Girl's Guide to Murder</strong></p>
+          <p>A high school student investigates a closed murder case for her senior project, uncovering secrets, lies,
+            and a web of deception in her town. As she digs deeper, she realizes the truth is far more dangerous than
+            she expected.</p>
+            <p>$19.00</p>
+       <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+           </div>
+      </div>
+      <p class="book-title">
+        <strong>A Good Girl's Guide to Murder</strong><br>
+        Holly Jackson<br>
+        
+      </p>
+    </div>
+
+    <!-- Book 6 -->
+    <div class="bookSection" data-price="21.00" data-category="thriller">
+      <div class="img-container">
+        <img src="martian.jpg" alt="Book 6">
+        <div class="overlay">
+          <p><strong>The Martian</strong></p>
+          <p>Astronaut Mark Watney is stranded alone on Mars after a mission goes wrong. Using his ingenuity, science,
+            and humor, he fights to survive while NASA and his crew race to bring him home.</p>
+          <p>$21.00</p>
+        <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>  </div>
+      </div>
+      <p class="book-title">
+        <strong>The Martian</strong><br>
+        Andy Weir<br>
+      </p>
+    </div>
+  </div>
+
+  <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+  <a href="checkout.html"> <button class="checkout-btn">Checkout</button> </a>
+
+  <footer>
+    <p>Contact Us: info@chapterandcharm.com</p>
+    <p>&copy; 2026 Chapter & Charm</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

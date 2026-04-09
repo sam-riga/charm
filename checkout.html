@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chapter and Charm - Your Cart</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="brand-container">
+            <h1 class="nova-cut-regular brand-title">Chapter & Charm <span style="color: #f4a6b0;">♡</span></h1>
+            <p class="brand-subtitle">Where you find your next book crush!</p>
+        </div>
+
+
+        <nav>
+            <ul id="mainNavUl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="romance.html">Romance</a></li>
+                <li><a href="snaturescience.html">Nature Science</a></li>
+                <li><a href="thriller.html">Thriller</a></li>
+                <li><a href="manga.html">Manga</a></li>
+                <li><a href="fantasy.html">Fantasy</a></li>
+                <li><a href="checkout.html" clas="active">Checkout</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="checkout-header">
+        <div class="checkout-container">
+            <h2>Your Cart</h2>
+            <div id="cartItems"></div>
+            <br>
+            <p>Your total: $<span id="cartTotal">0.00</span></p>
+
+        </div>
+
+
+        <div class="checkoutFields">
+            <h2>Checkout</h2>
+            <p>Your Name</p>
+            <input type="text" id="nameField">
+            <p>Your Email</p>
+            <input type="text" id="userEmail">
+            <p>Mailing Address</p>
+            <input type="text" id="userAddress">
+            <p>Postal Code</p>
+            <input type="text" id="postalCode">
+            <p>Enter your card number</p>
+            <input type="number" id="cardNum">
+            <div class="cardInfo">
+                <p>Expiry Date</p>
+                <input type="number" id="expiry">
+                <p>CVV</p>
+                <input type="number" id="cvv">
+            </div>
+            <input type="submit" value="Confirm Purchase" id="checkOutBtn">
+            <p id="message"></p>
+        </div>
+    </div>
+
+
+
+    <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+
+
+
+    <footer>
+        <p>Contact Us: info@chapterandcharm.com</p>
+        <p>&copy; 2026 Chapter and Charm</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter & Charm</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <h1 class="nova-cut-regular brand-title">Chapter & Charm <span style="color: #f4a6b0;">♡</span></h1>
+      <p class="brand-subtitle">Where you find your next book crush!</p>
+    </div>
+
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Search books...">
+    </div>
+
+    <nav>
+      <ul id="mainNavUl">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="romance.html">Romance</a></li>
+        <li><a href="naturescience.html" class="active">Nature Science</a></li>
+        <li><a href="thriller.html">Thriller</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="fantasy.html">Fantasy</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="active-category-header">
+    <h2 id="currentCategoryTitle">Nature Science</h2>
+    <p id="currentCategorySubtitle">Exploring the wonders of the natural world, human biology, and the cosmos, blending
+      scientific rigor with engaging narrative</p>
+  </section>
+
+  <div class="controls-bar">
+    <button id="ratingToggle" class="filterBtn">Show > 4 Stars</button>
+  </div>
+
+  <div class="books" id="bookGrid">
+
+    <div class="bookSection" data-rating="5.0" data-price="20.00" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/The Hidden Life of Trees.png" alt="The Hidden Life of Trees">
+        <div class="overlay">
+          <p><strong>The Hidden Life of Trees</strong></p>
+          <p>Peter Wohlleben</p>
+          <p class="stars">★★★★★</p>
+          <p>A fascinating look at how trees communicate and support each other.</p>
+          <p>$20.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Hidden Life of Trees</strong><br>
+        Peter Wohlleben<br>
+        <span class="stars">★★★★★</span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="4.5" data-price="18.50" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/Being You.png" alt="Being You">
+        <div class="overlay">
+          <p><strong>Being You</strong></p>
+          <p>Anil Seth</p>
+          <p class="stars">★★★★<span class="star-half">★</span></p>
+          <p>Anil Seth's quest to understand the biological basis of conscious experience.</p>
+          <p>$18.50</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Being You</strong><br>
+        Anil Seth<br>
+        <span class="stars">★★★★<span class="star-half">★</span></span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="3.0" data-price="21.00" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/Sing Like Fish.png" alt="Sing Like Fish">
+        <div class="overlay">
+          <p><strong>Sing Like Fish</strong></p>
+          <p>Amorina Kingdon</p>
+          <p class="stars">★★★<span class="star-empty">★★</span></p>
+          <p>A captivating exploration of how underwater animals tap into sound to survive.</p>
+          <p>$21.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Sing Like Fish</strong><br>
+        Amorina Kingdon<br>
+        <span class="stars">★★★<span class="star-empty">★★</span></span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="4.0" data-price="17.00" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/Silent Spring.png" alt="Silent Spring">
+        <div class="overlay">
+          <p><strong>Silent Spring</strong></p>
+          <p>Rachel Carson</p>
+          <p class="stars">★★★★<span class="star-empty">★</span></p>
+          <p>About pesticide dangers sparking the modern environmental movement.</p>
+          <p>$17.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>Silent Spring</strong><br>
+        Rachel Carson<br>
+        <span class="stars">★★★★<span class="star-empty">★</span></span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="4.5" data-price="19.50" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/The Sixth Extinction.png" alt="The Sixth Extinction">
+        <div class="overlay">
+          <p><strong>The Sixth Extinction</strong></p>
+          <p>Elizabeth Kolbert</p>
+          <p class="stars">★★★★<span class="star-half">★</span></p>
+          <p>A powerful account of the mass extinction unfolding before our eyes.</p>
+          <p>$19.50</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Sixth Extinction</strong><br>
+        Elizabeth Kolbert<br>
+        <span class="stars">★★★★<span class="star-half">★</span></span>
+      </p>
+    </div>
+
+    <div class="bookSection" data-rating="4.5" data-price="22.00" data-category="nature-science">
+      <div class="img-container">
+        <img src="Nature Archive/The Rise and Fall of the Dinosaurs.png" alt="The Rise and Fall of the Dinosaurs">
+        <div class="overlay">
+          <p><strong>The Rise and Fall of the Dinosaurs</strong></p>
+          <p>Steve Brusatte</p>
+          <p class="stars">★★★★<span class="star-half">★</span></p>
+          <p>Reveals their extraordinary, 200-million-year-long story as never before.</p>
+          <p>$22.00</p>
+          <button class="cartBtn">Add to Cart</button>
+          <button class="wishlistBtn">♡ Wishlist</button>
+        </div>
+      </div>
+      <p class="book-title">
+        <strong>The Rise and Fall of the Dinosaurs</strong><br>
+        Steve Brusatte<br>
+        <span class="stars">★★★★<span class="star-half">★</span></span>
+      </p>
+    </div>
+
+  </div>
+
+  <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+  <a href="checkout.html"> <button class="checkout-btn">Checkout</button> </a>
+
+
+  <footer>
+    <p>Contact Us: info@chapterandcharm.com</p>
+    <p>&copy; 2026 Chapter & Charm</p>
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

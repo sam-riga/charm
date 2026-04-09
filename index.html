@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Chapter & Charm</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <div class="brand-container">
+      <h1 class="nova-cut-regular brand-title">Chapter & Charm<span style="color: #f4a6b0;">♡</span></h1>
+      <p class="brand-subtitle">Where you find your next book crush!</p>
+    </div>
+
+    <div class="header-search">
+      <input type="text" id="searchInput" placeholder="Search books...">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="romance.html">Romance</a></li>
+        <li><a href="naturescience.html">Nature Science</a></li>
+        <li><a href="thriller.html">Thriller</a></li>
+        <li><a href="manga.html">Manga</a></li>
+        <li><a href="fantasy.html">Fantasy</a></li>
+        <li><a href="checkout.html">Checkout</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="section">
+      <h2>Welcome to Your Next Favorite Story</h2>
+      <p>Explore curated books across genres you'll love.</p>
+    </section>
+
+    <section class="active-category-header">
+      <h2 id="currentCategoryTitle">Featured Books</h2>
+      <p id="currentCategorySubtitle">Discover trending reads and hidden gems!</p>
+    </section>
+
+
+    <!-- GRID -->
+    <div class="books" id="bookGrid">
+
+      <!-- Romance -->
+      <div class="bookSection" data-rating="5.0" data-price="28.99" data-category="featured">
+        <div class="img-container">
+          <img src="Archive/book1.jpg" alt="The Deal (Off Campus #1)">
+          <div class="overlay">
+            <p><strong>The Deal (Off Campus #1)</strong></p>
+            <p>Elle Kennedy</p>
+            <p class="stars">★★★★★</p>
+            <p>She's about to make a deal with the college bad boy...</p>
+            <p>$28.99</p>
+            <a href="romance.html"> <button>View Romance Books</button></a>
+            <button class="wishlistBtn">♡ Wishlist</button>
+          </div>
+        </div>
+        <p class="book-title">
+          <strong>The Deal (Off Campus #1)</strong><br>
+          Elle Kennedy<br>
+          <span class="stars">★★★★★</span>
+        </p>
+      </div>
+
+      <!-- Nature Science -->
+      <div class="bookSection" data-rating="4.0" data-price="19.50" data-category="featured">
+        <div class="img-container">
+          <img src="Nature Archive/The Sixth Extinction.png" alt="The Sixth Extinction">
+          <div class="overlay">
+            <p><strong>The Sixth Extinction</strong></p>
+            <p>Elizabeth Kolbert</p>
+            <p class="stars">★★★★<span class="star-half">★</span></p>
+            <p>A powerful account of the mass extinction unfolding before our eyes.</p>
+            <p>$19.50</p>
+            <a href="naturescience.html"><button>View Nature Science Books</button></a>
+            <button class="wishlistBtn">♡ Wishlist</button>
+          </div>
+        </div>
+        <p class="book-title">
+          <strong>The Sixth Extinction</strong><br>
+          Elizabeth Kolbert<br>
+          <span class="stars">★★★★<span class="star-half">★</span></span>
+        </p>
+      </div>
+
+      <!-- Fantasy -->
+      <div class="bookSection" data-rating="5.0" data-price="24.99" data-category="featured">
+        <div class="img-container">
+          <img src="https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1761312598i/61431922.jpg"
+            alt="Fourth Wing book cover">
+          <div class="overlay">
+            <h3>Fourth Wing</h3>
+            <p>Rebecca Yarros</p>
+            <p class="stars">★★★★★</p>
+            <p>Dragon riders, deadly trials, and romance at Basgiath War College.</p>
+            <p>$24.99</p>
+            <a href="fantasy.html"><button>View Fantasy Books</button></a>
+            <button class="wishlistBtn">♡ Wishlist</button>
+          </div>
+        </div>
+        <p class="book-title">
+          <strong>Fourth Wing</strong><br>
+          Rebecca Yarros<br>
+          <span class="stars">★★★★★</span>
+        </p>
+      </div>
+    </div>
+
+  </main>
+  <a href="wishlist.html"> <button class="wishlist-btn">View Wishlist</button> </a>
+  <a href="checkout.html"> <button class="checkout-btn">Checkout</button> </a>
+
+  <footer>
+    <p>Contact Us: info@chapterandcharm.com</p>
+    <p>&copy; 2026 Chapter & Charm</p>
+  </footer>
+
+   <script src="script.js"></script>
+
+
+</body>
+
+</html>
